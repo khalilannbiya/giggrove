@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Fortify\TwoFactorAuthenticatable;
@@ -19,6 +20,15 @@ class User extends Authenticatable
     use HasTeams;
     use Notifiable;
     use TwoFactorAuthenticatable;
+    use SoftDeletes;
+
+    protected $dates = [
+        "created_at",
+        "updated_at",
+        "deleted_at",
+        "email_verified_at",
+        "two_factor_confirmed_at"
+    ];
 
     /**
      * The attributes that are mass assignable.
@@ -28,6 +38,7 @@ class User extends Authenticatable
     protected $fillable = [
         'name', 'email', 'password',
     ];
+
 
     /**
      * The attributes that should be hidden for serialization.
