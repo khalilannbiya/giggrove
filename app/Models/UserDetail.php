@@ -8,4 +8,18 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class UserDetail extends Model
 {
     use SoftDeletes;
+
+    protected $dates = [
+        "created_at",
+        "updated_at",
+        "deleted_at",
+    ];
+
+    protected $fillable = [
+        "user_id",
+        "photo",
+        "role",
+        "contact_number",
+        "biography"
+    ];
 }
