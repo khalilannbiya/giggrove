@@ -2,8 +2,10 @@
 
 namespace App\Models;
 
+use App\Models\Service;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class ServiceAdvantage extends Model
 {
@@ -19,4 +21,9 @@ class ServiceAdvantage extends Model
         "sevice_id",
         "advantage",
     ];
+
+    public function service(): BelongsTo
+    {
+        return $this->belongsTo(Service::class);
+    }
 }

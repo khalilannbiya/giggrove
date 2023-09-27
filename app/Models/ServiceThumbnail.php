@@ -2,8 +2,10 @@
 
 namespace App\Models;
 
+use App\Models\Service;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class ServiceThumbnail extends Model
 {
@@ -18,4 +20,9 @@ class ServiceThumbnail extends Model
         "sevice_id",
         "thumbnail",
     ];
+
+    public function service(): BelongsTo
+    {
+        return $this->belongsTo(Service::class);
+    }
 }

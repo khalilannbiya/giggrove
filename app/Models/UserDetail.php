@@ -2,8 +2,11 @@
 
 namespace App\Models;
 
+use App\Models\UserExperience;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class UserDetail extends Model
 {
@@ -22,4 +25,14 @@ class UserDetail extends Model
         "contact_number",
         "biography"
     ];
+
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
+
+    public function user_experiences(): HasMany
+    {
+        return $this->hasMany(UserExperience::class);
+    }
 }
