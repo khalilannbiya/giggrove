@@ -2,8 +2,10 @@
 
 namespace App\Models;
 
+use App\Models\Order;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class OrderStatus extends Model
 {
@@ -18,4 +20,9 @@ class OrderStatus extends Model
     protected $fillable = [
         "status",
     ];
+
+    public function orders(): HasMany
+    {
+        return $this->hasMany(Order::class);
+    }
 }

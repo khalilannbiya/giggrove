@@ -2,8 +2,10 @@
 
 namespace App\Models;
 
+use App\Models\UserDetail;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class UserExperience extends Model
 {
@@ -19,4 +21,9 @@ class UserExperience extends Model
         "user_detail_id",
         "experience"
     ];
+
+    public function user_detail(): BelongsTo
+    {
+        return $this->belongsTo(UserDetail::class);
+    }
 }
