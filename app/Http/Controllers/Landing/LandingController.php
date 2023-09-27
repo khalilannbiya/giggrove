@@ -63,7 +63,22 @@ class LandingController extends Controller
         //
     }
 
-    public function destroy(string $id)
+    public function detail_booking(string $id)
+    {
+        //
+    }
+
+    public function booking(string $id)
+    {
+        //
+    }
+
+    public function detail(string $id)
+    {
+        //
+    }
+
+    public function explore()
     {
         //
     }
