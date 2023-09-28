@@ -80,6 +80,6 @@ class LandingController extends Controller
 
     public function explore()
     {
-        //
+        return view("pages.Landing.explorer");
     }
 }
