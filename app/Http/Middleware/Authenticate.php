@@ -12,6 +12,8 @@ class Authenticate extends Middleware
      */
     protected function redirectTo(Request $request): ?string
     {
-        return $request->expectsJson() ? null : route('login');
+        // If $request->expectsJson() or in other words, if the login is successful, then redirect to the Homepage using route('index').
+        // If the login fails or !$request->expectsJson(), also redirect to the Homepage using route('index'), but display a login failed message on the homepage.
+        return $request->expectsJson() ? route('index') : route('index');
     }
 }
