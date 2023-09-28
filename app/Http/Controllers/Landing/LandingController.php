@@ -75,7 +75,7 @@ class LandingController extends Controller
 
     public function detail(string $id)
     {
-        //
+        return view('pages.Landing.detail');
     }
 
     public function explore()
