@@ -13,25 +13,32 @@
                     Enter your email & password to continue
                 </p>
             </div>
-            <form action="index.php" method="GET">
+            <form method="POST" action="{{ route('login') }}">
+                @csrf
                 <!--body-->
                 <div class="relative p-6 flex-auto mx-10">
+
                     <div class="mb-4">
-                        <label class="block text-grey-darker text-sm mb-2" for="username">
+                        <label class="block text-grey-darker text-sm mb-2" for="email">
                             Email
                         </label>
+
                         <input name="email"
                             class="appearance-none border border-gray-300 rounded-lg w-full py-3 px-4 placeholder-serv-text text-xs"
-                            id="username" type="text" placeholder="name@domain.com">
+                            id="email" type="email" placeholder="name@domain.com" required autofocus>
                     </div>
+
                     <div>
                         <label class="block text-grey-darker text-sm mb-2" for="password">
                             Password
                         </label>
+
                         <input name="password"
                             class="appearance-none border border-gray-300 rounded-lg w-full py-3 px-4 placeholder-serv-text text-xs mb-3"
-                            id="password" type="password" placeholder="At least 8 characters">
+                            id="password" type="password" placeholder="At least 8 characters" required
+                            autocomplete="current-password">
                     </div>
+
                     <div class="flex items-center justify-between">
                         <div class="inline-block text-xs text-gray-400">
                             <label class="inline-flex items-center mt-3">
@@ -48,9 +55,11 @@
                 <!--footer-->
                 <div class="px-6 pb-6 rounded-b-xl mx-10">
                     <input type="hidden" name="auth" value="true">
+
                     <button class="bg-serv-button text-white text-lg py-3 px-12 my-2 rounded-lg w-full" type="submit">
                         Log in
                     </button>
+
                     <p href="#" class="text-center py-5">
                         Dont have account? <a href="#" class="text-serv-button"
                             onclick="toggleModal('loginModal');toggleModal('registerModal') ">Sign up</a>
