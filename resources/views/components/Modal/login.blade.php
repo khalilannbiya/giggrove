@@ -28,7 +28,7 @@
                             id="email" type="email" placeholder="name@domain.com" required autofocus>
 
                         @error('email')
-                        <p class="text-red-500 mb-3 text-small">{{ $message }}</p>
+                        <p class="text-red-500 mt-2 mb-3 text-xs">{{ $message }}</p>
                         @enderror
                     </div>
 
@@ -43,7 +43,7 @@
                             autocomplete="current-password">
 
                         @error('password')
-                        <p class="text-red-500 mb-3 text-small">{{ $message }}</p>
+                        <p class="text-red-500 mt-2 mb-3 text-xs">{{ $message }}</p>
                         @enderror
                     </div>
 

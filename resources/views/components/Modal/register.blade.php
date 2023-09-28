@@ -28,7 +28,7 @@
                             id="name" type="text" placeholder="Your name" required autofocus>
 
                         @error('name')
-                        <p class="text-red-500 mb-3 text-small">{{ $message }}</p>
+                        <p class="text-red-500 mt-2 mb-3 text-xs">{{ $message }}</p>
                         @enderror
                     </div>
 
@@ -42,7 +42,7 @@
                             id="email" type="email" placeholder="name@domain.com" required>
 
                         @error('email')
-                        <p class="text-red-500 mb-3 text-small">{{ $message }}</p>
+                        <p class="text-red-500 mt-2 mb-3 text-xs">{{ $message }}</p>
                         @enderror
                     </div>
 
@@ -56,7 +56,7 @@
                             id="password" type="password" placeholder="At least 8 characters" required>
 
                         @error('password')
-                        <p class="text-red-500 mb-3 text-small">{{ $message }}</p>
+                        <p class="text-red-500 mt-2 mb-3 text-xs">{{ $message }}</p>
                         @enderror
                     </div>
 
@@ -70,7 +70,7 @@
                             id="password_confirmation" type="password" placeholder="At least 8 characters" required>
 
                         @error('password_confirmation')
-                        <p class="text-red-500 mb-3 text-small">{{ $message }}</p>
+                        <p class="text-red-500 mt-2 mb-3 text-xs">{{ $message }}</p>
                         @enderror
                     </div>
 
