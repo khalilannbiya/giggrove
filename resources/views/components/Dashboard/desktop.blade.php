@@ -21,15 +21,31 @@
 
         <ul class="mt-6">
             <li class="relative px-6 py-3">
+
+                @if (Route::current()->getName() == 'member.dashboard.index')
                 <span class="absolute inset-y-0 left-0 w-1 rounded-tr-lg rounded-br-lg bg-serv-bg"
                     aria-hidden="true"></span>
-                <a class="inline-flex items-center w-full text-sm font-medium text-gray-800 transition-colors duration-150 hover:text-gray-800 "
-                    href="{{ route('member.dashboard.index') }}">
+                @endif
+
+                <a class="inline-flex items-center w-full text-sm transition-colors duration-150 hover:text-gray-800 {{ Route::current()->getName() == 'member.dashboard.index' ? 'font-medium text-gray-800' : 'font-light' }}"
+                    href=" {{ route('member.dashboard.index') }}">
+
+                    @if (Route::current()->getName() == 'member.dashboard.index')
+                    <!-- Active Icons -->
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M19.5 16V9.02123C19.5 7.75027 18.896 6.55494 17.8728 5.80101L12.3728 1.74838C10.9618 0.708674 9.03823 0.708675 7.6272 1.74838L2.1272 5.80101C1.10401 6.55494 0.5 7.75027 0.5 9.02123V16C0.5 18.2091 2.29086 20 4.5 20H5.75C6.57843 20 7.25 19.3284 7.25 18.5V16C7.25 15.1716 7.92157 14.5 8.75 14.5H11.25C12.0784 14.5 12.75 15.1716 12.75 16V18.5C12.75 19.3284 13.4216 20 14.25 20H15.5C17.7091 20 19.5 18.2091 19.5 16Z"
                             fill="#082431" />
                     </svg>
+                    @else
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19.5 16V9.02123C19.5 7.75027 18.896 6.55494 17.8728 5.80101L12.3728 1.74838C10.9618 0.708674 9.03823 0.708675 7.6272 1.74838L2.1272 5.80101C1.10401 6.55494 0.5 7.75027 0.5 9.02123V16C0.5 18.2091 2.29086 20 4.5 20H5.75C6.57843 20 7.25 19.3284 7.25 18.5V16C7.25 15.1716 7.92157 14.5 8.75 14.5H11.25C12.0784 14.5 12.75 15.1716 12.75 16V18.5C12.75 19.3284 13.4216 20 14.25 20H15.5C17.7091 20 19.5 18.2091 19.5 16Z"
+                            fill="#082431" />
+                    </svg>
+                    @endif
+
+
                     <span class="ml-4">Dashboard</span>
                 </a>
             </li>
@@ -37,21 +53,33 @@
 
         <ul>
             <li class="relative px-6 py-3">
-                <a class="inline-flex items-center w-full text-sm font-light transition-colors duration-150 hover:text-gray-800"
-                    href="{{ route('member.services.index') }}">
+
+                @if (Route::current()->getName() == 'member.services.index')
+                <span class="absolute inset-y-0 left-0 w-1 rounded-tr-lg rounded-br-lg bg-serv-bg"
+                    aria-hidden="true"></span>
+                @endif
+
+                <a class="inline-flex items-center w-full text-sm transition-colors duration-150 hover:text-gray-800 {{ Route::current()->getName() == 'member.services.index' ? 'font-medium text-gray-800' : 'font-light' }}"
+                    href=" {{ route('member.services.index') }}">
+
+                    @if (Route::current()->getName() == 'member.services.index')
+                    <!-- Active Icons -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="3" width="7" height="7" rx="2" fill="#082431" />
+                        <rect x="3" y="14" width="7" height="7" rx="2" fill="#082431" />
+                        <rect x="14" y="3" width="7" height="7" rx="2" fill="#082431" />
+                        <rect x="14" y="14" width="7" height="7" rx="2" fill="#082431" />
+                    </svg>
+
+                    @else
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="3" y="3" width="7" height="7" rx="2" stroke="#082431" stroke-width="1.5" />
                         <rect x="3" y="14" width="7" height="7" rx="2" stroke="#082431" stroke-width="1.5" />
                         <rect x="14" y="3" width="7" height="7" rx="2" stroke="#082431" stroke-width="1.5" />
                         <rect x="14" y="14" width="7" height="7" rx="2" stroke="#082431" stroke-width="1.5" />
                     </svg>
-                    <!-- Active Icons -->
-                    <!-- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="3" y="3" width="7" height="7" rx="2" fill="#082431" />
-                        <rect x="3" y="14" width="7" height="7" rx="2" fill="#082431" />
-                        <rect x="14" y="3" width="7" height="7" rx="2" fill="#082431" />
-                        <rect x="14" y="14" width="7" height="7" rx="2" fill="#082431" />
-                    </svg> -->
+                    @endif
+
                     <span class="ml-4">My Services</span>
                     <span
                         class="inline-flex items-center justify-center px-3 py-2 ml-auto text-xs font-bold leading-none text-green-500 rounded-full bg-serv-green-badge">2</span>
