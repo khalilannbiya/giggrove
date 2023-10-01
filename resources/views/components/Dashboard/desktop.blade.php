@@ -54,15 +54,15 @@
         <ul>
             <li class="relative px-6 py-3">
 
-                @if (Route::current()->getName() == 'member.services.index')
+                @if (in_array(Route::current()->getName(), ['member.services.index', 'member.services.create']))
                 <span class="absolute inset-y-0 left-0 w-1 rounded-tr-lg rounded-br-lg bg-serv-bg"
                     aria-hidden="true"></span>
                 @endif
 
-                <a class="inline-flex items-center w-full text-sm transition-colors duration-150 hover:text-gray-800 {{ Route::current()->getName() == 'member.services.index' ? 'font-medium text-gray-800' : 'font-light' }}"
+                <a class="inline-flex items-center w-full text-sm transition-colors duration-150 hover:text-gray-800 {{ in_array(Route::current()->getName(), ['member.services.index', 'member.services.create']) ? 'font-medium text-gray-800' : 'font-light' }}"
                     href=" {{ route('member.services.index') }}">
 
-                    @if (Route::current()->getName() == 'member.services.index')
+                    @if (in_array(Route::current()->getName(), ['member.services.index', 'member.services.create']))
                     <!-- Active Icons -->
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="3" y="3" width="7" height="7" rx="2" fill="#082431" />
