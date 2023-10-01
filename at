@@ -1,0 +1,576 @@
+[33mcommit 552c24588cca3c177aba5b66248f21293fcabb50[m[33m ([m[1;36mHEAD -> [m[1;32mfeat/page-add-service-form[m[33m, [m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Sat Sep 30 19:45:06 2023 +0700
+
+    feat(ui-service): create page for my services & setup navbar (#40)
+    
+    Co-authored-by: khalilannbiya <syeichkhalil@gmail.com>
+
+[33mcommit 83436021c56087b19456e277d2948e0ccf31d727[m
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Sat Sep 30 10:56:18 2023 +0700
+
+    feat(ui-dashboard): create page index dashboard (#39)
+    
+    Co-authored-by: khalilannbiya <syeichkhalil@gmail.com>
+
+[33mcommit 4fb54fa1eee7d8c0fde3832e6817386e49459e71[m
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Sat Sep 30 10:28:26 2023 +0700
+
+    feat(ui-dashboard): create components on dashboard (#38)
+    
+    Co-authored-by: khalilannbiya <syeichkhalil@gmail.com>
+
+[33mcommit 9a695936193945a4b53e89195915cd6740a84f5c[m
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Sat Sep 30 09:47:12 2023 +0700
+
+    feat(ui-dashboard): slicing layout blade for dashboard (#37)
+    
+    Co-authored-by: khalilannbiya <syeichkhalil@gmail.com>
+
+[33mcommit b07b56ef4e6524a1f412062c80f54b2c08b1d8af[m
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Sat Sep 30 09:31:57 2023 +0700
+
+    feat(ui-dashboard): slicing includes blade for dashboard (#36)
+    
+    Co-authored-by: khalilannbiya <syeichkhalil@gmail.com>
+
+[33mcommit 0356bb22b2d4672e521e8a153b0de95c05873fb2[m
+Merge: 6ca400c 2815ede
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Fri Sep 29 17:48:33 2023 +0700
+
+    Merge pull request #35 from khalilannbiya/fix/navbar-condition
+    
+    fix(ui-navbar): add condition navbar after login or not login
+
+[33mcommit 2815edeb95d0c2a086a2af38d0e11415adac16df[m[33m ([m[1;31morigin/fix/navbar-condition[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Fri Sep 29 17:45:55 2023 +0700
+
+    fix(ui-navbar): add condition navbar after login or not login
+
+[33mcommit 6ca400c3ef015e9fbab2c6ebf1b33096ca806088[m
+Merge: 48bc19f b6bde95
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 20:45:50 2023 +0700
+
+    Merge pull request #34 from khalilannbiya/fix/ui-error-message
+    
+    fix(ui): solve error message
+
+[33mcommit b6bde95af4df5ec6ad4a09277a41895615d7f75c[m[33m ([m[1;31morigin/fix/ui-error-message[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 20:44:29 2023 +0700
+
+    fix(ui): solve error message
+
+[33mcommit 48bc19fea3de2bc072aa49cd074c6489f468e4df[m
+Merge: 87094de 057c22b
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 20:07:29 2023 +0700
+
+    Merge pull request #33 from khalilannbiya/fix/navbar-active
+    
+    fix(navbar): fixing navbar active
+
+[33mcommit 057c22b48cf7b72a20b039cd332c6522e44ca7bb[m[33m ([m[1;31morigin/fix/navbar-active[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 20:05:57 2023 +0700
+
+    fix(navbar): fixing navbar active
+
+[33mcommit 87094dea6f5248b2f6de25358f813922afb4d8ae[m
+Merge: 96649d8 ac6a6a2
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 19:46:52 2023 +0700
+
+    Merge pull request #32 from khalilannbiya/feat/error-information
+    
+    feat(ui-landing): add error info in login & register form
+
+[33mcommit ac6a6a23c3dda9b1d214a0174200cef259f5339c[m[33m ([m[1;31morigin/feat/error-information[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 19:45:45 2023 +0700
+
+    feat(ui-landing): add error info in login & register form
+
+[33mcommit 96649d87f231a9f429d0c61638c6d975c113d857[m
+Merge: 387890a e7bf62b
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 19:33:23 2023 +0700
+
+    Merge pull request #31 from khalilannbiya/feat/custom-register-form
+    
+    feat(ui-landing): slicing modal form register on landing
+
+[33mcommit e7bf62bea663fd772d49866edcfff501667777dd[m[33m ([m[1;31morigin/feat/custom-register-form[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 19:32:40 2023 +0700
+
+    feat(ui-landing): slicing modal form register on landing
+
+[33mcommit 387890a6609ce73eca708749cd72c4f7513aa48d[m
+Merge: 7c1ac08 901c3fc
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 19:22:15 2023 +0700
+
+    Merge pull request #30 from khalilannbiya/feat/custom-form-loggin
+    
+    feat(ui-landing): slicing modal form login on landing
+
+[33mcommit 901c3fc7df3bd7492a3bda6979459628d518c7ff[m[33m ([m[1;31morigin/feat/custom-form-loggin[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 19:21:04 2023 +0700
+
+    feat(ui-landing): slicing modal form login on landing
+
+[33mcommit 7c1ac082b7b16b6600bbe2f427c6c0ff6e1777a6[m
+Merge: cc6de8c 3722861
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 19:11:32 2023 +0700
+
+    Merge pull request #29 from khalilannbiya/faet/slicing-booking-success
+    
+    feat(ui-landing): slicing page booking success on landing
+
+[33mcommit 3722861d9888bd7d276b375e403b82a049ee6185[m[33m ([m[1;31morigin/faet/slicing-booking-success[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 19:10:03 2023 +0700
+
+    feat(ui-landing): slicing page booking success on landing
+
+[33mcommit cc6de8c422c32d804f2a772c9aaab52806e55f64[m
+Merge: 40fe06e 8aa8a04
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 19:03:10 2023 +0700
+
+    Merge pull request #28 from khalilannbiya/feat/slicing-detail-service
+    
+    feat(ui-landing): slicing page detail service on landing
+
+[33mcommit 8aa8a040797d927c58acf92a18c086507ccccc5a[m[33m ([m[1;31morigin/feat/slicing-detail-service[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 19:01:40 2023 +0700
+
+    feat(ui-landing): slicing page detail service on landing
+
+[33mcommit 40fe06e52a0c5b1870150936eed585e6f27e1fcf[m
+Merge: 13b6585 f664a91
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 18:19:49 2023 +0700
+
+    Merge pull request #27 from khalilannbiya/feat/slicing-page-explore
+    
+    feat(ui-landing): slicing page explore on landing
+
+[33mcommit f664a9100e7e7cdd0c4d6a26372aee401909c89c[m[33m ([m[1;31morigin/feat/slicing-page-explore[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 18:14:29 2023 +0700
+
+    feat(ui-landing): slicing page explore on landing
+
+[33mcommit 13b65851166b1932698e1c6c4b230107ccc0dd05[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 17:06:30 2023 +0700
+
+    feat(ui-landing): slicing Homepage or index landing
+
+[33mcommit cc9e7ea7deaf0707bb6efde9ba709e21e98efc3a[m
+Merge: a860d05 8b2b233
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 16:49:20 2023 +0700
+
+    Merge pull request #26 from khalilannbiya/feat/components-landing
+    
+    feat(ui-landing): slicing component blade for landing
+
+[33mcommit 8b2b233729d56ae260e5d981139557893b43c19a[m[33m ([m[1;31morigin/feat/components-landing[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 16:47:41 2023 +0700
+
+    feat(ui-landing): slicing component blade for landing
+
+[33mcommit a860d05a8b96b323c6a0111276e0fef23e290d3a[m
+Merge: 01d4cdf 1046875
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 16:41:27 2023 +0700
+
+    Merge pull request #25 from khalilannbiya/feat/components-modals-landing
+    
+    feat(ui-landing): slicing component modals blade for landing
+
+[33mcommit 10468759ea52f7ce26e57817bac6e7ed2db74dfb[m[33m ([m[1;31morigin/feat/components-modals-landing[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 16:40:32 2023 +0700
+
+    feat(ui-landing): slicing component modals blade for landing
+
+[33mcommit 01d4cdf362ac6d4b269c1acf40ce59a0ef136d8a[m
+Merge: d887122 98a8190
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 16:37:29 2023 +0700
+
+    Merge pull request #24 from khalilannbiya/feat/layout-landing
+    
+    feat(ui-landing): slicing layout blade for landing
+
+[33mcommit 98a8190aed72796c6a63ca6252bf451900853b33[m[33m ([m[1;31morigin/feat/layout-landing[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 16:36:23 2023 +0700
+
+    feat(ui-landing): slicing layout blade for landing
+
+[33mcommit d887122de9f1e4db68e739bcede4e6eee2e8b1e4[m
+Merge: f252a7a 1d436d7
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 16:27:21 2023 +0700
+
+    Merge pull request #23 from khalilannbiya/feat/includes-landing
+    
+    feat(ui-landing): slicing includes blade for landing
+
+[33mcommit 1d436d7a24ef6647f9bc6feebb24400b42e76ec2[m[33m ([m[1;31morigin/feat/includes-landing[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 16:17:17 2023 +0700
+
+    feat(ui-landing): slicing includes blade for landing
+
+[33mcommit f252a7a067bc1324c6b583157cf0d30bec928555[m
+Merge: 867b484 56cb8da
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 08:13:36 2023 +0700
+
+    Merge pull request #22 from khalilannbiya/feat/handle-assets
+    
+    feat(assets): handle assets
+
+[33mcommit 56cb8daa3390acaf1465f95e6cbd43ca02112b85[m[33m ([m[1;31morigin/feat/handle-assets[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 08:12:23 2023 +0700
+
+    feat(assets): handle assets
+
+[33mcommit 867b4847ef9d7084b2325a8bc6d6b45c7af91185[m
+Merge: fcccc20 d4d57ce
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 07:54:56 2023 +0700
+
+    Merge pull request #21 from khalilannbiya/feat/custom-auth
+    
+    feat(auth): custom Fortify, Middleware, Providers for login custom
+
+[33mcommit d4d57ced3e8921ef50f38d2eed7ae92081a545e8[m[33m ([m[1;31morigin/feat/custom-auth[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 07:54:00 2023 +0700
+
+    feat(auth): custom Fortify, Middleware, Providers for login custom
+
+[33mcommit fcccc20ea644d628ad7490eb0425be397f451e4d[m
+Merge: 8ccdb35 f4efad4
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 06:19:40 2023 +0700
+
+    Merge pull request #20 from khalilannbiya/feat/add-new-function-controller
+    
+    feat(controller): add new function in some controller
+
+[33mcommit f4efad4febb32e2ec8405d39d29654edaab78428[m[33m ([m[1;31morigin/feat/add-new-function-controller[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 06:19:02 2023 +0700
+
+    feat(controller): add new function in some controller
+
+[33mcommit 8ccdb35a8d928cdd3235222ffa20cd6f5bfb1034[m
+Merge: df6d3f9 6405512
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Thu Sep 28 06:14:01 2023 +0700
+
+    Merge pull request #19 from khalilannbiya/feat/routing
+    
+    feat(routes): creating a routes structure
+
+[33mcommit 6405512fd87b77e720c41b2414d20461a01e8085[m[33m ([m[1;31morigin/feat/routing[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Thu Sep 28 06:12:23 2023 +0700
+
+    feat(routes): creating a routes structure
+
+[33mcommit df6d3f960286e79a7c977ce16952715449f57a27[m
+Merge: ae31f23 b2d23af
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 15:49:26 2023 +0700
+
+    Merge pull request #18 from khalilannbiya/feat/structure-folder-controller-views
+    
+    feat(folder structure): create folder structure
+
+[33mcommit b2d23afba7a2acc1cd53b1cfbae7aa60817c1191[m[33m ([m[1;31morigin/feat/structure-folder-controller[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 15:48:17 2023 +0700
+
+    feat(folder structure): create folder structure
+
+[33mcommit ae31f2321c6f607057d5cea43a38c20783c4ad09[m
+Merge: 0fe52a2 4edd802
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 12:19:46 2023 +0700
+
+    Merge pull request #17 from khalilannbiya/feat/seeder
+    
+    feat(seeder): create User, UserDetail, OrderStatus Seeder
+
+[33mcommit 4edd802c7060d66dc74c8c0591de2b53bfbdfdc8[m[33m ([m[1;31morigin/feat/seeder[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 12:18:28 2023 +0700
+
+    feat(seeder): create User, UserDetail, OrderStatus Seeder
+
+[33mcommit 0fe52a270905e032c4e41e412a2e0af594fdbf22[m
+Merge: d941e41 28539af
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 11:44:32 2023 +0700
+
+    Merge pull request #16 from khalilannbiya/feat/relationships-table
+    
+    feat(models): creating relationships between tables using Eloquent inmultiple models
+
+[33mcommit 28539af02eb4f4df16a09a84ac619463a8fa67d4[m[33m ([m[1;31morigin/feat/relationship-users-table[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 11:40:49 2023 +0700
+
+    feat(models): creating relationships between tables using Eloquent in multiple models
+
+[33mcommit d941e4177f96f9de8d4b8cf6119c4082431dd2a0[m
+Merge: fb3f477 b095d77
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 06:25:47 2023 +0700
+
+    Merge pull request #15 from khalilannbiya/feat/protected-dates-fillable-order
+    
+    feat(models): add protected dates & fillable on some models
+
+[33mcommit b095d77de2ad82b2d7bd86ad1ab61bf7134f0c8a[m[33m ([m[1;31morigin/feat/protected-dates-fillable-order[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 06:24:41 2023 +0700
+
+    feat(models): add protected dates & fillable on some models
+
+[33mcommit fb3f4778cf09189d9bf80e2ed757a18274444780[m
+Merge: 19a74b1 8059380
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 06:20:26 2023 +0700
+
+    Merge pull request #14 from khalilannbiya/feat/protected-dates-fillable-any-models
+    
+    feat(models): add protected dates & fillable on some models
+
+[33mcommit 8059380a800f36aa8867fb4ab93761101ec5be1e[m[33m ([m[1;31morigin/feat/protected-dates-fillable-any-models[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 06:16:59 2023 +0700
+
+    feat(models): add protected dates & fillable on some models
+
+[33mcommit 19a74b18217229b55f15e80a34ca103e176d9871[m
+Merge: ca5502e ca6f04e
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 06:10:04 2023 +0700
+
+    Merge pull request #13 from khalilannbiya/feat/propert-user-experience
+    
+    feat(models): add protected dates & fillable on UserExperience Model
+
+[33mcommit ca6f04e2aa7e378fbf7f1b539d53b3ecee1e417e[m[33m ([m[1;31morigin/feat/propert-user-experience[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 06:08:05 2023 +0700
+
+    feat(models): add protected dates & fillable on UserExperience Model
+
+[33mcommit ca5502eba6e28107c2fa9a48677bb8086c0aa036[m
+Merge: 6603e28 9e1ff9f
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 06:05:15 2023 +0700
+
+    Merge pull request #12 from khalilannbiya/feat/property-dates-user-detail
+    
+    feat(models): add protected dates & fillable on UserDetail Model
+
+[33mcommit 9e1ff9fb14bca7b0e4fc636e42fe00f24ee944d1[m[33m ([m[1;31morigin/feat/property-dates-user-detail[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 06:03:32 2023 +0700
+
+    feat(models): add protected  &  on UserDetail Model
+
+[33mcommit 6603e28f3e9e8cc9255f50e83b9b4f81d988cc7a[m
+Merge: 0adcf6a ee11a08
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 05:57:40 2023 +0700
+
+    Merge pull request #11 from khalilannbiya/feat/property-dates-Users
+    
+    feat(models): add protected  & add softDeletes in migration Users table
+
+[33mcommit ee11a0850ce6066d07ad20c9133ae270d40b5cc1[m[33m ([m[1;31morigin/feat/property-dates-Users[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 05:56:29 2023 +0700
+
+    feat(models): add protected  & add softDeletes in migration Users table
+
+[33mcommit 0adcf6a2f264063eb377cb20996078670fa204e7[m
+Merge: 76bd138 a8dbffb
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 05:27:23 2023 +0700
+
+    Merge pull request #10 from khalilannbiya/feat/migration-order-statuses
+    
+    feat(migration): Added new migration for 'order_statuses' table
+
+[33mcommit a8dbffbf7132aa0fc98b8e512e9f2b2f40e42d5f[m[33m ([m[1;31morigin/feat/migration-order-statuses[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 05:26:01 2023 +0700
+
+    feat(migration): Added new migration for 'order_statuses' table
+
+[33mcommit 76bd138a837c71221fe6f73de1601d581720fe0f[m
+Merge: d6d2ebd 2123005
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 05:20:59 2023 +0700
+
+    Merge pull request #9 from khalilannbiya/feat/migration-orders
+    
+    feat(migration): Added new migration for 'orders' table
+
+[33mcommit 21230058c1133622985805316dd25a59212db768[m[33m ([m[1;31morigin/feat/migration-orders[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 05:18:15 2023 +0700
+
+    feat(migration): Added new migration for 'orders' table
+
+[33mcommit d6d2ebd7b0af309aa79efb227bbadcbdeea65f69[m
+Merge: 1ecbe9d abf1227
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 05:06:11 2023 +0700
+
+    Merge pull request #8 from khalilannbiya/feat/migration-service-thumbnails
+    
+    feat(migration): Added new migration for 'service_thumbnails' table
+
+[33mcommit abf1227ca2a7648fd60d99372732d32e1dcaa787[m[33m ([m[1;31morigin/feat/migration-service-thumbnails[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 05:04:40 2023 +0700
+
+    feat(migration): Added new migration for 'service_thumbnails' table
+
+[33mcommit 1ecbe9d0c7836de1ca84402f59ff80212d258545[m
+Merge: 1f61b04 2486536
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 05:00:59 2023 +0700
+
+    Merge pull request #7 from khalilannbiya/feat/migration-service-taglines
+    
+    feat(migration): Added new migration for 'service_taglines' table
+
+[33mcommit 2486536b1772cb48fc18c24dd618325d7010ad34[m[33m ([m[1;31morigin/feat/migration-service-taglines[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 04:59:53 2023 +0700
+
+    feat(migration): Added new migration for 'service_taglines' table
+
+[33mcommit 1f61b0433d5821f3081c6ef508f5d54090fcbfac[m
+Merge: 5224963 1040ba9
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 04:54:34 2023 +0700
+
+    Merge pull request #6 from khalilannbiya/feat/migration-service-advantages
+    
+    feat(migration): Added new migration for 'service_advantages' table
+
+[33mcommit 1040ba9fe7cfa78d272c9bead6821516b218d8c8[m[33m ([m[1;31morigin/feat/migration-service-advantages[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 04:53:07 2023 +0700
+
+    feat(migration): Added new migration for 'service_advantages' table
+
+[33mcommit 52249636a817f34192b2f4b169c9b062aba97551[m
+Merge: 5ef1134 201390d
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Wed Sep 27 04:49:19 2023 +0700
+
+    Merge pull request #5 from khalilannbiya/feat/migration-user-advantages
+    
+    feat(migration): Added new migration for 'user_advantages' table
+
+[33mcommit 201390dfc7c77d339ee4b209fceab9db0c1facf7[m[33m ([m[1;31morigin/feat/migration-user-advantages[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Wed Sep 27 04:47:30 2023 +0700
+
+    feat(migration): Added new migration for 'user_advantages' table
+
+[33mcommit 5ef11343a7588ed939e229550fd3684cf5f169a8[m
+Merge: 6897947 8f8e0a6
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Tue Sep 26 19:00:01 2023 +0700
+
+    Merge pull request #4 from khalilannbiya/feat/migration-service
+    
+    feat(migration): Added new migration for 'services' table
+
+[33mcommit 8f8e0a6cb05858b73ee834609025bf73652d10b2[m[33m ([m[1;31morigin/feat/migration-service[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Tue Sep 26 18:50:31 2023 +0700
+
+    feat(migration): Added new migration for 'services' table
+
+[33mcommit 68979473d6296dca905f6a33972d9e75f521f6cf[m
+Merge: f84cfee 077634e
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Tue Sep 26 08:50:31 2023 +0700
+
+    Merge pull request #3 from khalilannbiya/feat/migration-user-experiences
+    
+    feat(migration): Added new migration for 'user_experiences' table
+
+[33mcommit 077634ed96e568a0ecc1f5b519e9bb5f5e70a859[m[33m ([m[1;31morigin/feat/migration-user-experiences[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Tue Sep 26 08:49:33 2023 +0700
+
+    feat(migration): Added new migration for 'user_experiences' table
+
+[33mcommit f84cfee0ea206eb9da222cc9e072950e278eaafc[m
+Merge: befd36d 420aba4
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Tue Sep 26 08:46:30 2023 +0700
+
+    Merge pull request #2 from khalilannbiya/feat/migration-user_details
+    
+    feat(migration): Added new migration for 'user_details' table
+
+[33mcommit 420aba472b00358df0988f7e867c185a022d31c7[m[33m ([m[1;31morigin/feat/migration-user_details[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Tue Sep 26 08:45:25 2023 +0700
+
+    feat(migration): Added new migration for 'user_details' table
+
+[33mcommit befd36db1bc11d8b46bbf41eb9f19c7663be12a9[m
+Merge: 49b9528 384b89c
+Author: Syeich Khalil Annbiya <84386261+khalilannbiya@users.noreply.github.com>
+Date:   Tue Sep 26 08:40:07 2023 +0700
+
+    Merge pull request #1 from khalilannbiya/refactor/migration-fields
+    
+    refactor(migration): changed column types in several migrations
+
+[33mcommit 384b89c5435ce4c79f319fe13d649388fffce719[m[33m ([m[1;31morigin/refactor/migration-fields[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Tue Sep 26 08:38:21 2023 +0700
+
+    refactor(migration): changed column types in several migrations
+
+[33mcommit 49b952822d4c321fccffc67341f6e247aaf36a95[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: khalilannbiya <syeichkhalil@gmail.com>
+Date:   Mon Sep 25 17:45:47 2023 +0700
+
+    feat: install jetstream teams version
