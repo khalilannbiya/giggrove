@@ -50,7 +50,7 @@
                                             </div>
                                         </div>
                                         <div>
-                                            <a href="{{ route('member.services.show', 1, 1) }}"
+                                            <a href="{{ route('member.services.show', 1) }}"
                                                 class="font-medium text-black">
                                                 Design WordPress <br>E-Commerce Modules
                                             </a>
